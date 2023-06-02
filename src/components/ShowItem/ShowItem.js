@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 const ShowItem = (props) => {
-
   return (
-    <Link to={'/'} className="showcase__container">
+    <Link to={`/${props.id}`} className="showcase__container">
       <div className="shows__item_container">
         <div className="showcase__banner">
           <img

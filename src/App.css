@@ -102,7 +102,7 @@ img {
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   color: var(--title-color);
 }
 
@@ -262,6 +262,98 @@ img {
 }
 .price {
   color: rgba(169, 169, 169, 0.839);
+}
+
+
+/* show component css */
+.show_container
+{
+  margin: var(--mb-2) auto;
+
+}
+.main__image
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.available
+{
+  margin-top: var(--mb-0-5);
+  cursor: pointer;
+  color:#8c8d92;
+}
+
+.available:hover
+{
+  color: white;
+}
+
+.main__heading
+{
+  color: white;
+}
+
+.ratings
+{
+  color: white;
+  margin-top: -10px;
+}
+
+.small__description
+{
+  color:#8c8d92;
+}
+
+.show__content
+{
+  margin: var(--mb-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description__box
+{
+  margin: 1rem 0;
+  max-width: 60vmax;
+}
+
+.description__text
+{
+  text-align: center;
+  color: rgb(187, 187, 187);
+}
+
+.form__button{
+  display: flex;
+  justify-content: center;
+}
+
+.form__button > button
+{
+  background-color: #797979;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1.25rem;
+  box-shadow: 4px 4px white;
+  cursor: pointer;
+}
+
+.form__button > button:hover
+{
+  background-color: white;
+  color: #414141;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1.25rem;
+  box-shadow: 4px 4px #797979;
 }
 
 /*-----------------------------------*\

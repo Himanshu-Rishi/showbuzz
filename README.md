@@ -1,6 +1,6 @@
 <div align="center">
   
-# Codlax
+# ShowBuzz
 
 <a href="https://codlax.vercel.app/">
   <img src="https://res.cloudinary.com/dwtntbtvy/image/upload/v1685691558/github%20project%20showbuzz/tv-show_ae13pb.png" alt="Logo" width="80" height="80">  

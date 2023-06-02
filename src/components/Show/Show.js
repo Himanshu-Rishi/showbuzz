@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const Show = (props) => {
   const { id } = useParams();
+  const history = useNavigate();
   const url = `https://api.tvmaze.com/shows/${id}`;
   const [currentData, setData] = useState({});
   const fetchInfo = () => {
-    return fetch(url)
+      return fetch(url)
       .then((res) => res.json())
       .then((d) => setData(d));
-  };
-  console.log(currentData);
+    };
+    function goToForm()
+    {
+      history(`/form/${id}`)
+    }
   useEffect(() => {
     fetchInfo();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -74,7 +78,7 @@ const Show = (props) => {
           </div>
         </div>
         <div className="form__button">
-          <button>Book Tickets </button>
+          <button onClick={goToForm}>Book Tickets </button>
         </div>
       </div>
     </>

@@ -66,6 +66,10 @@
   padding: 0;
   margin: 0;
 }
+html, body {
+height: 100vh;
+width: 100vw;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -413,6 +417,55 @@ form
 {
   background-color: rgb(224, 101, 101);
   
+}
+
+/* footer */
+
+.footer__container
+{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  padding-top: 3rem;
+}
+
+.secion__title_footer
+{
+  color: white;
+}
+
+.secion__title_footer_half
+{
+  color: red;
+}
+
+.section__subtitle_footer
+{
+  max-width: 60vmax;
+  text-align: center;
+}
+
+.nav__links
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.nav__link-footer
+{
+  color: white;
+  font-size: 1.75rem;
+  margin: var(--mb-1) var(--mb-0-75);
+}
+
+.copyright
+{
+  margin: 1rem 0;
 }
 
 /*-----------------------------------*\

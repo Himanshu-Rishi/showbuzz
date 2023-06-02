@@ -20,7 +20,7 @@ const BookTicket = (props) => {
       phoneNo: localStorage.getItem("user_phoneNo"),
       email: localStorage.getItem("user_email"),
       date: "",
-      time: "",
+      time: "8:00",
     },
     validateOnBlur: false,
     validateOnChange: false,
@@ -76,7 +76,11 @@ const BookTicket = (props) => {
               type="time"
               className="input__main"
               onChange={formik.handleChange}
-              value={currentData.schedule ? currentData.schedule.time : ""}
+              value={
+                currentData.schedule
+                  ? currentData.schedule.time
+                  : formik.values.time
+              }
               required={true}
               name="time"
             />

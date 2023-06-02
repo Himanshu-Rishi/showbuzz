@@ -5,6 +5,7 @@ import Navbar from "./components/layout/Navbar";
 import {  Route, Routes } from "react-router-dom";
 import Show from "./components/Show/Show";
 import BookTicket from "./components/Form/BookTicket";
+import Footer from "./components/layout/Footer";
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path="/:id" element={<Show />} />
         <Route exact path="/form/:id" element={<BookTicket />} />
       </Routes>
+      <Footer />
     </>
   );
 };

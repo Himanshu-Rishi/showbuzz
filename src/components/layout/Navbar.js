@@ -6,7 +6,9 @@ const Navbar = () => {
       <div className="navbar__container container">
         <div>
           <h1 className="website__title">
+            <a href="/" style={{color: 'white'}}>
             Show <span className="website__title_half">Buzz</span>
+            </a>
           </h1>
         </div>
         <div>

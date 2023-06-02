@@ -47,7 +47,7 @@ const Home = () => {
         </div>
       </div>
 
-      <h1 className="shows__heading">Top Shows</h1>
+      <h1 className="shows__heading banner__container">Top Shows</h1>
 
       <div className="shows">
         {data.map((element) => {

@@ -13,7 +13,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![screenshot](https://res.cloudinary.com/dwtntbtvy/image/upload/v1685691403/github%20project%20showbuzz/Screenshot_2023-06-02_at_1.05.05_PM_nyfrph.png)
+![screenshot](https://res.cloudinary.com/dwtntbtvy/image/upload/v1685692689/github%20project%20showbuzz/Screenshot_2023-06-02_at_1.27.57_PM_gwsw6y.png)
 ![screenshot](https://res.cloudinary.com/dwtntbtvy/image/upload/v1685691463/github%20project%20showbuzz/Screenshot_2023-06-02_at_1.06.49_PM_b3j1ku.png)
 ![screenshot](https://res.cloudinary.com/dwtntbtvy/image/upload/v1685691435/github%20project%20showbuzz/Screenshot_2023-06-02_at_1.07.01_PM_jbvsow.png)
 
